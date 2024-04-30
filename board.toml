@@ -1,0 +1,33 @@
+id = "25f4a3bf-ad26-4e74-a403-10d2ad6f4dcb"
+title = "Open LLM Leaderboard"
+description = "Sample Gage board"
+
+["run-select"]
+
+operation = "eval"
+status = "completed"
+
+[[columns]]
+
+field = "run:name"
+label = "Run"
+
+[[columns]]
+
+field = "run:started"
+label = "Date"
+
+[[columns]]
+
+field = "metric:score"
+label = "Score"
+
+[[columns]]
+
+field = "attribute:type"
+label = "Score Type"
+
+[[columns]]
+
+field = "run:label"
+label = "Description"

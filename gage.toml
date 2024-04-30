@@ -1,0 +1,4 @@
+[eval]
+
+description = "Evaluate something"
+exec = "python eval.py"
